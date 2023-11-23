@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Mulish:wght@700&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+ */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+a{
+    text-decoration: none;
+}
+/* Navbar */ 
+
+.navbar{ 
+    background-color: #eeeeee;
+    padding: 1.5rem;
+}
+
+.navbar-brand {
+    color: #000000;
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.navbar-brand span {
+    color: #ec1b5e;
+    margin-left: 5px;
+    box-shadow: 1px solid black;
+}
+.nav-item a {
+font-size: 23px;
+color: #000000
+}
+
+.barra {
+    align-items: center;
+    justify-content: end;
+    margin-right: 30px;
+}
+
+/* Main */
+
+.portada {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(180deg, #f5ea14 0%, #f05e22 48%, #ec1b5e 100%);
+    background-size: contain;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+
+
+.container-portada{
+    justify-content: center;
+    align-items: center;
+}
+
+.p-rigth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+.p-left .container-image-portada {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 100px;
+
+}
+.container-text-portada{
+    width: 70%;
+}
+.container-text-portada p {
+    font-size: 55px;
+    max-width: 100%;
+    font-weight: bold;
+}
+
+.container-text-portada .text-chico {
+    font-size: 20px;
+}
+
+.button-portada {
+    background-color: #fff;
+    height: 60px;
+    width: 200px;
+    border-radius: 25px;
+    display: flex;
+    margin-top: 40px;
+    color: #f05e22;
+
+}
+.button-portada:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    background-color: #2e1e45;
+    color: #eeeeee;
+}
+
+.button-portada span {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    inline-size: 200px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+/*Row-quienes-somos */
+.relleno {
+    width: 100%;
+    height: 200px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quienes-somos-row {
+    text-align: center;
+}
+
+.quienes-somos-row .logo-row {
+    font-size: 50px;
+    text-align: end;
+    padding-right: 100px;
+}
+
+.quienes-somos-row .logo-row aside {
+    color: #000000;
+    font-weight: bolder;
+}
+
+.quienes-somos-row .logo-row span {
+    color: #ec1b5e;
+    margin-left: 5px;
+    box-shadow: 1px solid black;
+}
+
+.description-nosotros {
+    text-align: start;
+    border: 3px solid #f05e22;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 18px;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    max-height: 90%;
+}
+
+/* Servicios */
+  .text-service  {
+    margin-top: 50px;
+    text-align: center;
+    font-weight:bolder;
+    font-size: 35px;
+    box-shadow: 1px solid black;
+  }  
+
+  .title-service span {
+    color: #ec1b5e;
+    font-size: 60px;
+  }
+
+.title-service aside {
+    margin-bottom: -35px;
+    font-size: 60px;
+}
+.img-service img {
+    height: 255px;
+    margin-top: 60px;
+}
+.img-service :hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.img-service aside {
+    margin-top: 100px;
+}
+
+.description-img {
+    margin-top: 30px;
+    color: #2d0269;
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Clientes */
+.title-clientes { 
+    background-color: #2e1e45;
+    height: 70px;
+    width: 100%;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-clientes span {
+    font-size: 40px;
+    font-weight: bold;   
+}
+.container-clientes {
+    height:200px;
+}
+.item-clientes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+footer {
+    height: 330px;
+    background-color: #eeeeee;
+}
+.item-footer {
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    
+}
+
+.title-item {
+    border-bottom: 1px solid #000000;
+    height: 65px;
+    
+}
+
+.logo-footer {
+    font-size: 40px;
+    height: 200px;
+    margin-top: 40px;
+}
+.logo-footer aside {
+    color: #ec1b5e;
+}
+
+.container-contacto aside {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+}
+
+
+/* Mobile Page */ 
+.jumbotron {
+  height: 85vh;
+  background-image: url(img/mobile-dev.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.title-mobile {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ec1b5e;
+}
+
+.cont-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding: 50px;
+}
+
+.cont-principal p {
+    font-size: 20px;
+}
+
+.title-lenaguje {
+    color: #ec1b5e;
+    font-size: 35px;
+    padding-left: 50px;
+    font-weight: bold;
+
+}
+.row-lenguaje {
+    padding-left: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+    
+
+}
+
+.img-len{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Medias */
+@media (max-width: 1316px) {
+.relleno {
+    height: 250px;
+    }
+    }
+
+    @media  (max-width: 1199px) {
+    .navbar-toggler {
+      order: -1;
+    }
+    .navbar-brand {
+      order: 0;
+    }
+
+    .img-portada{
+       width: 80%;
+    }
+    
+  }
+
+  @media screen and (max-width:1522px) {
+    footer {
+        height: 400px;
+    }
+    .title-item {
+        height: 100px;
+    }
+  }
+  @media screen and (max-width:1117px) {
+    .container-text-portada {
+        width: 100%; /* o un porcentaje adecuado */
+        margin-right: 0; /* o ajusta según tus necesidades */
+    }
+
+    .container-text-portada .texto-grande {
+        font-size: 33px;
+    }
+
+    .container-text-portada .text-chico {
+        font-size: 15px;
+    }
+
+    /* Quienes somos */
+    .relleno {
+        height: 300px;
+    }
+    }
+    @media screen and (max-width: 991px) {
+        .img-portada {
+            width: 450px;
+            margin-top: -80px;
+        }
+        .portada {
+            height: 1250px;
+        }
+        .container-text-portada{
+            margin-top: -40px;
+            width: 60%;
+            
+        }
+        .container-text-portada .texto-grande {
+            font-size: 50px;
+        }
+        .container-text-portada .text-chico {
+            font-size: 20px;
+        }
+        /* service */
+        .text-service {
+            margin-top: 30px;
+        }
+        .title-service aside {
+            font-size: 40px;
+            margin-bottom: -15px;
+        }
+        .title-service span {
+            font-size: 40px ;
+        }
+        .img-service img{
+            height: 180px;
+        }
+
+       .description-img  {
+        font-size: 24px;
+       }
+     
+    }
+    @media screen and (max-width: 838px)  {
+        .portada{
+            height: 1300px;
+        }
+        .relleno {
+            height: 350px;
+        }
+    }
+
+    @media screen and (max-width: 767px)  {
+        .quienes-somos-row .logo-row {
+            text-align: center;
+            padding-right: 0;
+        }
+        .description-nosotros {
+            border-left: none;
+        }
+        .container-clientes {
+            height: 500px;
+        }
+        .img-service img {
+            height: 300px;
+        }
+        .description-img {
+            font-size: 40px;
+        }
+
+        footer {
+            height: 700px;
+        }
+        .redes-sociales {
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .title-item {
+            border-top: 1px solid black;
+            border-bottom: none;
+            text-align: start;
+        }
+        .title-disable {
+            border-top: none;
+            
+        }
+        .span-disable {
+            display: none;
+        }
+        .logo-footer {
+            margin-top: -100px;
+            text-align: start;
+        }
+    }
+
+    .redes-sociales a  i {
+        color: #2d0269;
+    }
+        
+    @media screen and (max-width: 600px) {
+        .portada {
+            height: 1180px;
+        }
+
+    .img-portada {
+        width: 350px;
+    }
+    .container-text-portada .texto-grande {
+        font-size: 38px;
+    }
+    .container-text-portada .text-chico {
+        font-size: 22px;
+    }
+
+    @media screen and (max-width:575px) {
+        .container-clientes {
+            height: 900px;
+        }
+    } 
+    @media screen and (max-width:527px) { 
+        .portada {
+            height: 1200px;
+        }
+    }
+    }
+  
+  @media screen and (max-width:500px) {
+    .container-text-portada{
+        width: 80%;
+    }
+    .container-text-portada .texto-grande {
+        font-size: 35px;
+    }
+    }
+
+    @media screen and (max-width: 448px) {
+        .relleno {
+            height: 400px;
+        }
+        .quienes-somos-row .logo-row {
+            text-align: start;
+            
+        }
+    }
+
+    @media screen and (max-width: 402px) { 
+        .portada {
+            height: 1250px;
+        }
+
+        .img-service img{
+            height: 170px;
+        }
+        .description-img {
+            font-size: 30px;
+        }
+        .title-clientes {
+            height: 100px;
+        }
+        .title-clientes span {
+            font-size: 28px;
+        }
+    }
+
+    
+    @media screen and (max-width: 391px) { 
+        
+        .quienes-somos-row .logo-row {
+            font-size: 30px;
+        }
+        .quienes-somos-row .description-nosotros {
+            font-size: 15px;
+        }
+    }
+    @media screen and (max-width: 360px) {
+        .navbar-brand {
+            display: none;
+        }
+        .portada{
+            height: 1100px;
+        }
+        .img-portada{
+            width: 250px;
+        }
+        .container-text-portada .texto-grande {
+            font-size: 28px;
+        }
+        .container-text-portada .text-chico {
+            font-size: 18px;
+        }
+        
+        .email aside {
+            font-size: 16px;
+        }
+    }
+    
+
